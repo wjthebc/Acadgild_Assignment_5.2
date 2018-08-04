@@ -1,0 +1,20 @@
+header
+  {
+    /*makes background green*/
+    background: green;
+    /*removes extra space*/
+    margin: 0 auto;
+    /*adds padding*/
+    padding: 20px;
+    /*makes text white*/
+    color:white;
+  }
+
+/*changes background to plue if screen width is 450 px or less*/
+@media screen and (max-width: 450px) 
+  {
+    header
+    {
+      background:blue;
+    }
+  }
